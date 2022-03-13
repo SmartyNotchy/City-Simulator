@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>City Simulator</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: lime">
+	
+	<div class="info">
+		<h1 id="status"></h1>
+		<h5 id="time"></h5>
+		<h3 id="population"></h3>
+		<h4 id="populationGrowth"></h4>
+		<h3 id="money"></h3>
+		<h4 id="income"></h4>
+		<h3 id="progress"></h3>
+		<button class="ResidentialButton" onclick="age(town)">Next year</button>
+		<button class="CommercialButton" onclick="refresh()" id="refresh">Refresh Market</button>
+	</div>
+	
+	<div id="market" class="market">
+		<div class="tier1" id="tier1"></div>
+		<div class="tier3" id="tier3"></div>
+		<div class="tier2" id="tier2"></div>
+
+		<div id="offerTemplate" class="offer">
+			<h4>Name</h4>
+			<h4>Cost: $0</h4>
+			<h4>Stock: 0</h4>
+			<h6>Population: +0</h6>
+			<h6>Population Growth Rate: +0</h6>
+			<h6>Income: +$0</h6>
+			<button>Buy x1</button>
+			<button>Buy x10</button>
+			<button>Buy All</button>
+			<button>Buy Max</button>
+		</div>
+	</div>
+	
+	<script src="game.js"></script>
+
+</body>
+</html>

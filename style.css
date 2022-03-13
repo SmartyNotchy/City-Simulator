@@ -1,0 +1,98 @@
+.info {
+	margin: auto;
+	color: cyan;
+	text-align: center;
+	border-style: solid;
+	width: 700px;
+	border-color: darkgreen;
+	background-color: green;
+}
+
+.tabs {
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	width: 400px;
+	border-color: darkgreen;
+	background-color: green;
+}
+
+.ResidentialButton {
+	border-color: lime;
+	border-style: solid;
+	background-color: green;
+	color: lime;
+	text-align: center;
+	padding: 15px 27px;
+	border-width: 5px;
+	font-size: 14px;
+}
+
+.offer {
+	margin: 0;
+	text-align: center;
+	border-style: solid;
+	width: 500px;
+	height: 280px;
+}
+
+.Residential {
+	border-color: darkgreen;
+	background-color: green;
+	color: lime;
+}
+
+.Community {
+	border-color: darkgray;
+	background-color: gray;
+	color: lightgray;
+}
+
+.CommunityButton { 
+	border-color: darkgray;
+	border-style: solid;
+	background-color: gray;
+	color: lightgray;
+	text-align: center;
+	padding: 15px 27px;
+	border-width: 5px;
+	font-size: 14px;
+}
+
+.Commercial {
+	border-color: blue;
+	background-color: cyan;
+	color: blue;
+}
+
+.CommercialButton { 
+	border-color: blue;
+	border-style: solid;
+	background-color: cyan;
+	color: blue;
+	text-align: center;
+	padding: 15px 27px;
+	border-width: 5px;
+	font-size: 14px;
+}
+
+.tier1 { float: left; }
+.tier2 {
+	margin: auto;
+	text-align: center;
+	width: 500px;
+	border-color: darkgreen;
+	background-color: green;
+}
+.tier3 { float: right; }
+
+.market {
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	width: 1560px;
+	border-color: darkgray;
+	background-color: gray;
+}
+
+h6 { margin-top: -10px; }
